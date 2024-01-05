@@ -26,10 +26,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import infobip from "./company/infobip.jpg"
+import atlant from "./company/atlantbh.jpg"
+import ibu from "./company/ibu.jpg"
+import bioptimizers from "./company/bioptimizers.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -61,4 +66,8 @@ export {
   jobit,
   tripguide,
   newlogo,
+  infobip,
+  atlant,
+  ibu,
+  bioptimizers
 };
