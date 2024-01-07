@@ -5,8 +5,11 @@ import { ComputersCanvas } from './canvas';
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 import { mirza } from "../assets";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
+
+
   return (
     <section className="relative w-full h-screen mx-auto flex items-center justify-center">
       <div className={`${styles.paddingX} inset-0 mx-auto flex flex-row items-start gap-5`}>
@@ -16,7 +19,16 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#914eff]">Mirza</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am web developer that develops <br className="block md:hidden"/> both front-end and back-end.</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I am a <span><Typewriter
+            words={['Frontend Developer', 'Backend Developer', 'tester', 'lecturer']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          /></span></p>
+          
         </div>
       </div>
       {/* <ComputersCanvas /> */}
