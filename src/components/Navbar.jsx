@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useReadingProgress from "../hooks/useReadingProgress";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close, newlogo } from "../assets";
 
 const Navbar = () => {
+  const completion = useReadingProgress();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
@@ -72,6 +74,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <span
+        style={{ transform: `translateX(${completion - 100}%)` }}
+        className="absolute bg-white h-1 w-full bottom-0"
+      />
     </nav>
   );
 };

@@ -8,7 +8,7 @@ import { mirza } from "../assets";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto flex mt-[120px] items-center justify-center">
+    <section className="relative w-full h-screen mx-auto flex items-center justify-center">
       <div className={`${styles.paddingX} inset-0 mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
