@@ -26,7 +26,14 @@ import {
     infobip,
     atlant,
     ibu,
-    bioptimizers
+    bioptimizers,
+    springboot,
+    java,
+    mysql,
+    postgres,
+    selenium,
+    python,
+    php
   } from "../assets";
   
   export const navLinks = [
@@ -77,8 +84,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Postgres",
+      icon: postgres,
+    },
+    {
+      name: "Selenium",
+      icon: selenium,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
@@ -101,10 +120,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -113,8 +128,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Spring Boot",
+      icon: springboot,
     },
   ];
   

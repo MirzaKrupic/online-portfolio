@@ -7,6 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import mirza from "./mirza-cartoon.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -21,6 +22,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import springboot from "./tech/springboot.webp";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import postgres from "./tech/postgres.png";
+import selenium from "./tech/selenium.png";
+import python from "./tech/python.png";
+import php from "./tech/php.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -69,5 +77,13 @@ export {
   infobip,
   atlant,
   ibu,
-  bioptimizers
+  bioptimizers,
+  springboot,
+  java,
+  mysql,
+  postgres,
+  selenium,
+  python,
+  php,
+  mirza
 };
